@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="31" passed="31">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="209837" started-at="2019-11-15T16:38:26Z" finished-at="2019-11-15T16:41:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="209837" started-at="2019-11-15T16:38:26Z" finished-at="2019-11-15T16:41:56Z">
+      <class name="SeleniumPractice.demoOpenCart.pageFactory_Tests">
+        <test-method status="PASS" signature="before_test()[pri:0, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="before_test" is-config="true" duration-ms="4586" started-at="2019-11-15T22:38:26Z" finished-at="2019-11-15T22:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method status="PASS" signature="login_Positive()[pri:1, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="login_Positive" duration-ms="9307" started-at="2019-11-15T22:38:30Z" finished-at="2019-11-15T22:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Positive -->
+        <test-method status="PASS" signature="login_Negative_InvalidEmail()[pri:2, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="login_Negative_InvalidEmail" duration-ms="3703" started-at="2019-11-15T22:38:40Z" finished-at="2019-11-15T22:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Negative_InvalidEmail -->
+        <test-method status="PASS" signature="login_Negative_InvalidPassword()[pri:3, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="login_Negative_InvalidPassword" duration-ms="3542" started-at="2019-11-15T22:38:43Z" finished-at="2019-11-15T22:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Negative_InvalidPassword -->
+        <test-method status="PASS" signature="login_Negative_InvalidEmail_InvalidPassword()[pri:4, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="login_Negative_InvalidEmail_InvalidPassword" duration-ms="4317" started-at="2019-11-15T22:38:47Z" finished-at="2019-11-15T22:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Negative_InvalidEmail_InvalidPassword -->
+        <test-method status="PASS" signature="login_Negative_Blank()[pri:5, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="login_Negative_Blank" duration-ms="3493" started-at="2019-11-15T22:38:51Z" finished-at="2019-11-15T22:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Negative_Blank -->
+        <test-method status="PASS" signature="login_Negative_WrongFormatEmail()[pri:6, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="login_Negative_WrongFormatEmail" duration-ms="4307" started-at="2019-11-15T22:38:55Z" finished-at="2019-11-15T22:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Negative_WrongFormatEmail -->
+        <test-method status="PASS" signature="Register_All_Positive()[pri:7, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_All_Positive" duration-ms="9851" started-at="2019-11-15T22:38:59Z" finished-at="2019-11-15T22:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_All_Positive -->
+        <test-method status="PASS" signature="Register_Negative_InvalidFname_Length()[pri:8, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_InvalidFname_Length" duration-ms="3961" started-at="2019-11-15T22:39:09Z" finished-at="2019-11-15T22:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_InvalidFname_Length -->
+        <test-method status="PASS" signature="Register_Negative_Blank_Fname()[pri:9, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Blank_Fname" duration-ms="3972" started-at="2019-11-15T22:39:13Z" finished-at="2019-11-15T22:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Blank_Fname -->
+        <test-method status="PASS" signature="Register_Negative_InvalidLname_Length()[pri:10, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_InvalidLname_Length" duration-ms="4069" started-at="2019-11-15T22:39:17Z" finished-at="2019-11-15T22:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_InvalidLname_Length -->
+        <test-method status="PASS" signature="Register_Negative_Blank_Lname()[pri:11, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Blank_Lname" duration-ms="3892" started-at="2019-11-15T22:39:21Z" finished-at="2019-11-15T22:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Blank_Lname -->
+        <test-method status="PASS" signature="Register_Negative_Invalid_Email()[pri:12, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Invalid_Email" duration-ms="3855" started-at="2019-11-15T22:39:25Z" finished-at="2019-11-15T22:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Invalid_Email -->
+        <test-method status="PASS" signature="Register_Negative_Blank_Email()[pri:13, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Blank_Email" duration-ms="3861" started-at="2019-11-15T22:39:29Z" finished-at="2019-11-15T22:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Blank_Email -->
+        <test-method status="PASS" signature="Register_Negative_Duplicate_Email()[pri:14, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Duplicate_Email" duration-ms="3806" started-at="2019-11-15T22:39:33Z" finished-at="2019-11-15T22:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Duplicate_Email -->
+        <test-method status="PASS" signature="Register_Negative_Invalid_Teleno_LengthShort()[pri:15, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Invalid_Teleno_LengthShort" duration-ms="3927" started-at="2019-11-15T22:39:36Z" finished-at="2019-11-15T22:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Invalid_Teleno_LengthShort -->
+        <test-method status="PASS" signature="Register_Negative_Blank_Teleno_Length()[pri:16, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Blank_Teleno_Length" duration-ms="3870" started-at="2019-11-15T22:39:40Z" finished-at="2019-11-15T22:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Blank_Teleno_Length -->
+        <test-method status="PASS" signature="Register_Negative_Invalid_Teleno_LengthLong()[pri:17, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Invalid_Teleno_LengthLong" duration-ms="3904" started-at="2019-11-15T22:39:44Z" finished-at="2019-11-15T22:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Invalid_Teleno_LengthLong -->
+        <test-method status="PASS" signature="Register_Negative_Different_Password()[pri:18, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Different_Password" duration-ms="3950" started-at="2019-11-15T22:39:48Z" finished-at="2019-11-15T22:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Different_Password -->
+        <test-method status="PASS" signature="Register_Negative_Short_Password_Length()[pri:19, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Short_Password_Length" duration-ms="3832" started-at="2019-11-15T22:39:52Z" finished-at="2019-11-15T22:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Short_Password_Length -->
+        <test-method status="PASS" signature="Register_Negative_Long_Password_Length()[pri:20, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Long_Password_Length" duration-ms="3800" started-at="2019-11-15T22:39:56Z" finished-at="2019-11-15T22:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Long_Password_Length -->
+        <test-method status="PASS" signature="Register_Negative_Blank_Password_Length()[pri:21, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Blank_Password_Length" duration-ms="3803" started-at="2019-11-15T22:40:00Z" finished-at="2019-11-15T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Blank_Password_Length -->
+        <test-method status="PASS" signature="Register_Negative_Unchecked_Privacy_Policy()[pri:22, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Register_Negative_Unchecked_Privacy_Policy" duration-ms="3802" started-at="2019-11-15T22:40:03Z" finished-at="2019-11-15T22:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_Negative_Unchecked_Privacy_Policy -->
+        <test-method status="PASS" signature="Order_History_View()[pri:23, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Order_History_View" duration-ms="12690" started-at="2019-11-15T22:40:07Z" finished-at="2019-11-15T22:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Order_History_View -->
+        <test-method status="PASS" signature="Download_Page_View()[pri:24, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Download_Page_View" duration-ms="12958" started-at="2019-11-15T22:40:20Z" finished-at="2019-11-15T22:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Download_Page_View -->
+        <test-method status="PASS" signature="Transaction_Page_View()[pri:25, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Transaction_Page_View" duration-ms="13574" started-at="2019-11-15T22:40:33Z" finished-at="2019-11-15T22:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transaction_Page_View -->
+        <test-method status="PASS" signature="Add_To_Wishlist()[pri:26, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Add_To_Wishlist" duration-ms="19752" started-at="2019-11-15T22:40:47Z" finished-at="2019-11-15T22:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_To_Wishlist -->
+        <test-method status="PASS" signature="Add_To_Cart_From_Productview()[pri:27, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Add_To_Cart_From_Productview" duration-ms="5697" started-at="2019-11-15T22:41:06Z" finished-at="2019-11-15T22:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_To_Cart_From_Productview -->
+        <test-method status="PASS" signature="Add_To_Cart_From_Wishlist()[pri:28, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Add_To_Cart_From_Wishlist" duration-ms="12330" started-at="2019-11-15T22:41:12Z" finished-at="2019-11-15T22:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_To_Cart_From_Wishlist -->
+        <test-method status="PASS" signature="Update_Cart_From_Shopping_Cart()[pri:29, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Update_Cart_From_Shopping_Cart" duration-ms="16424" started-at="2019-11-15T22:41:24Z" finished-at="2019-11-15T22:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Update_Cart_From_Shopping_Cart -->
+        <test-method status="PASS" signature="Search_by_loggedin()[pri:30, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Search_by_loggedin" duration-ms="11102" started-at="2019-11-15T22:41:41Z" finished-at="2019-11-15T22:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_by_loggedin -->
+        <test-method status="PASS" signature="Search_without_loggedin()[pri:31, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="Search_without_loggedin" duration-ms="3760" started-at="2019-11-15T22:41:52Z" finished-at="2019-11-15T22:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_without_loggedin -->
+        <test-method status="PASS" signature="after_test()[pri:0, instance:SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20]" name="after_test" is-config="true" duration-ms="91" started-at="2019-11-15T22:41:56Z" finished-at="2019-11-15T22:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+      </class> <!-- SeleniumPractice.demoOpenCart.pageFactory_Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

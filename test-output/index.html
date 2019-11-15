@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\MDTariqur\AppData\Local\Temp\testng-eclipse--303467170\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">31 methods,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Add_To_Cart_From_Productview">Add_To_Cart_From_Productview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Add_To_Cart_From_Wishlist">Add_To_Cart_From_Wishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Add_To_Wishlist">Add_To_Wishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Download_Page_View">Download_Page_View</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Order_History_View">Order_History_View</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_All_Positive">Register_All_Positive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Blank_Email">Register_Negative_Blank_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Blank_Fname">Register_Negative_Blank_Fname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Blank_Lname">Register_Negative_Blank_Lname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Blank_Password_Length">Register_Negative_Blank_Password_Length</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Blank_Teleno_Length">Register_Negative_Blank_Teleno_Length</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Different_Password">Register_Negative_Different_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Duplicate_Email">Register_Negative_Duplicate_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_InvalidFname_Length">Register_Negative_InvalidFname_Length</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_InvalidLname_Length">Register_Negative_InvalidLname_Length</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Invalid_Email">Register_Negative_Invalid_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Invalid_Teleno_LengthLong">Register_Negative_Invalid_Teleno_LengthLong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Invalid_Teleno_LengthShort">Register_Negative_Invalid_Teleno_LengthShort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Long_Password_Length">Register_Negative_Long_Password_Length</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Short_Password_Length">Register_Negative_Short_Password_Length</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Register_Negative_Unchecked_Privacy_Policy">Register_Negative_Unchecked_Privacy_Policy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Search_by_loggedin">Search_by_loggedin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Search_without_loggedin">Search_without_loggedin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Transaction_Page_View">Transaction_Page_View</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="Update_Cart_From_Shopping_Cart">Update_Cart_From_Shopping_Cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="login_Negative_Blank">login_Negative_Blank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="login_Negative_InvalidEmail">login_Negative_InvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="login_Negative_InvalidEmail_InvalidPassword">login_Negative_InvalidEmail_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="login_Negative_InvalidPassword">login_Negative_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="login_Negative_WrongFormatEmail">login_Negative_WrongFormatEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="SeleniumPractice.demoOpenCart.pageFactory_Tests" hash-for-method="login_Positive">login_Positive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SeleniumPractice.demoOpenCart.pageFactory_Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_To_Cart_From_Productview">
+                  </a> <!-- Add_To_Cart_From_Productview -->
+                  <span class="method-name">Add_To_Cart_From_Productview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_To_Cart_From_Wishlist">
+                  </a> <!-- Add_To_Cart_From_Wishlist -->
+                  <span class="method-name">Add_To_Cart_From_Wishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_To_Wishlist">
+                  </a> <!-- Add_To_Wishlist -->
+                  <span class="method-name">Add_To_Wishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Download_Page_View">
+                  </a> <!-- Download_Page_View -->
+                  <span class="method-name">Download_Page_View</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Order_History_View">
+                  </a> <!-- Order_History_View -->
+                  <span class="method-name">Order_History_View</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_All_Positive">
+                  </a> <!-- Register_All_Positive -->
+                  <span class="method-name">Register_All_Positive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Blank_Email">
+                  </a> <!-- Register_Negative_Blank_Email -->
+                  <span class="method-name">Register_Negative_Blank_Email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Blank_Fname">
+                  </a> <!-- Register_Negative_Blank_Fname -->
+                  <span class="method-name">Register_Negative_Blank_Fname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Blank_Lname">
+                  </a> <!-- Register_Negative_Blank_Lname -->
+                  <span class="method-name">Register_Negative_Blank_Lname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Blank_Password_Length">
+                  </a> <!-- Register_Negative_Blank_Password_Length -->
+                  <span class="method-name">Register_Negative_Blank_Password_Length</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Blank_Teleno_Length">
+                  </a> <!-- Register_Negative_Blank_Teleno_Length -->
+                  <span class="method-name">Register_Negative_Blank_Teleno_Length</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Different_Password">
+                  </a> <!-- Register_Negative_Different_Password -->
+                  <span class="method-name">Register_Negative_Different_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Duplicate_Email">
+                  </a> <!-- Register_Negative_Duplicate_Email -->
+                  <span class="method-name">Register_Negative_Duplicate_Email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_InvalidFname_Length">
+                  </a> <!-- Register_Negative_InvalidFname_Length -->
+                  <span class="method-name">Register_Negative_InvalidFname_Length</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_InvalidLname_Length">
+                  </a> <!-- Register_Negative_InvalidLname_Length -->
+                  <span class="method-name">Register_Negative_InvalidLname_Length</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Invalid_Email">
+                  </a> <!-- Register_Negative_Invalid_Email -->
+                  <span class="method-name">Register_Negative_Invalid_Email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Invalid_Teleno_LengthLong">
+                  </a> <!-- Register_Negative_Invalid_Teleno_LengthLong -->
+                  <span class="method-name">Register_Negative_Invalid_Teleno_LengthLong</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Invalid_Teleno_LengthShort">
+                  </a> <!-- Register_Negative_Invalid_Teleno_LengthShort -->
+                  <span class="method-name">Register_Negative_Invalid_Teleno_LengthShort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Long_Password_Length">
+                  </a> <!-- Register_Negative_Long_Password_Length -->
+                  <span class="method-name">Register_Negative_Long_Password_Length</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Short_Password_Length">
+                  </a> <!-- Register_Negative_Short_Password_Length -->
+                  <span class="method-name">Register_Negative_Short_Password_Length</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_Negative_Unchecked_Privacy_Policy">
+                  </a> <!-- Register_Negative_Unchecked_Privacy_Policy -->
+                  <span class="method-name">Register_Negative_Unchecked_Privacy_Policy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_by_loggedin">
+                  </a> <!-- Search_by_loggedin -->
+                  <span class="method-name">Search_by_loggedin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_without_loggedin">
+                  </a> <!-- Search_without_loggedin -->
+                  <span class="method-name">Search_without_loggedin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Transaction_Page_View">
+                  </a> <!-- Transaction_Page_View -->
+                  <span class="method-name">Transaction_Page_View</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Update_Cart_From_Shopping_Cart">
+                  </a> <!-- Update_Cart_From_Shopping_Cart -->
+                  <span class="method-name">Update_Cart_From_Shopping_Cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Negative_Blank">
+                  </a> <!-- login_Negative_Blank -->
+                  <span class="method-name">login_Negative_Blank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Negative_InvalidEmail">
+                  </a> <!-- login_Negative_InvalidEmail -->
+                  <span class="method-name">login_Negative_InvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Negative_InvalidEmail_InvalidPassword">
+                  </a> <!-- login_Negative_InvalidEmail_InvalidPassword -->
+                  <span class="method-name">login_Negative_InvalidEmail_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Negative_InvalidPassword">
+                  </a> <!-- login_Negative_InvalidPassword -->
+                  <span class="method-name">login_Negative_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Negative_WrongFormatEmail">
+                  </a> <!-- login_Negative_WrongFormatEmail -->
+                  <span class="method-name">login_Negative_WrongFormatEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_Positive">
+                  </a> <!-- login_Positive -->
+                  <span class="method-name">login_Positive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\MDTariqur\AppData\Local\Temp\testng-eclipse--303467170\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SeleniumPractice.demoOpenCart.pageFactory_Tests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(31);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Add_To_Wishlist')
+data.setCell(0, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(0, 3, 19752);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Update_Cart_From_Shopping_Cart')
+data.setCell(1, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(1, 3, 16424);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Transaction_Page_View')
+data.setCell(2, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(2, 3, 13574);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Download_Page_View')
+data.setCell(3, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(3, 3, 12958);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Order_History_View')
+data.setCell(4, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(4, 3, 12690);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Add_To_Cart_From_Wishlist')
+data.setCell(5, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(5, 3, 12330);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Search_by_loggedin')
+data.setCell(6, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(6, 3, 11102);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Register_All_Positive')
+data.setCell(7, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(7, 3, 9851);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'login_Positive')
+data.setCell(8, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(8, 3, 9307);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Add_To_Cart_From_Productview')
+data.setCell(9, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(9, 3, 5697);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'login_Negative_InvalidEmail_InvalidPassword')
+data.setCell(10, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(10, 3, 4317);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'login_Negative_WrongFormatEmail')
+data.setCell(11, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(11, 3, 4307);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Register_Negative_InvalidLname_Length')
+data.setCell(12, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(12, 3, 4069);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Register_Negative_Blank_Fname')
+data.setCell(13, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(13, 3, 3972);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Register_Negative_InvalidFname_Length')
+data.setCell(14, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(14, 3, 3961);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Register_Negative_Different_Password')
+data.setCell(15, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(15, 3, 3950);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Register_Negative_Invalid_Teleno_LengthShort')
+data.setCell(16, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(16, 3, 3927);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Register_Negative_Invalid_Teleno_LengthLong')
+data.setCell(17, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(17, 3, 3904);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Register_Negative_Blank_Lname')
+data.setCell(18, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(18, 3, 3892);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Register_Negative_Blank_Teleno_Length')
+data.setCell(19, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(19, 3, 3870);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Register_Negative_Blank_Email')
+data.setCell(20, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(20, 3, 3861);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Register_Negative_Invalid_Email')
+data.setCell(21, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(21, 3, 3855);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Register_Negative_Short_Password_Length')
+data.setCell(22, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(22, 3, 3832);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Register_Negative_Duplicate_Email')
+data.setCell(23, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(23, 3, 3806);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Register_Negative_Blank_Password_Length')
+data.setCell(24, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(24, 3, 3803);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Register_Negative_Unchecked_Privacy_Policy')
+data.setCell(25, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(25, 3, 3802);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Register_Negative_Long_Password_Length')
+data.setCell(26, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(26, 3, 3800);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Search_without_loggedin')
+data.setCell(27, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(27, 3, 3760);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'login_Negative_InvalidEmail')
+data.setCell(28, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(28, 3, 3703);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'login_Negative_InvalidPassword')
+data.setCell(29, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(29, 3, 3542);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'login_Negative_Blank')
+data.setCell(30, 2, 'SeleniumPractice.demoOpenCart.pageFactory_Tests')
+data.setCell(30, 3, 3493);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SeleniumPractice.demoOpenCart.pageFactory_Tests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">before_test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">login_Positive</span>
+                <span class="method-start">4596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login_Negative_InvalidEmail</span>
+                <span class="method-start">13907 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login_Negative_InvalidPassword</span>
+                <span class="method-start">17611 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login_Negative_InvalidEmail_InvalidPassword</span>
+                <span class="method-start">21154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login_Negative_Blank</span>
+                <span class="method-start">25472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login_Negative_WrongFormatEmail</span>
+                <span class="method-start">28966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_All_Positive</span>
+                <span class="method-start">33274 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_InvalidFname_Length</span>
+                <span class="method-start">43127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Blank_Fname</span>
+                <span class="method-start">47090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_InvalidLname_Length</span>
+                <span class="method-start">51063 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Blank_Lname</span>
+                <span class="method-start">55133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Invalid_Email</span>
+                <span class="method-start">59026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Blank_Email</span>
+                <span class="method-start">62883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Duplicate_Email</span>
+                <span class="method-start">66744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Invalid_Teleno_LengthShort</span>
+                <span class="method-start">70551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Blank_Teleno_Length</span>
+                <span class="method-start">74479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Invalid_Teleno_LengthLong</span>
+                <span class="method-start">78350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Different_Password</span>
+                <span class="method-start">82255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Short_Password_Length</span>
+                <span class="method-start">86206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Long_Password_Length</span>
+                <span class="method-start">90039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Blank_Password_Length</span>
+                <span class="method-start">93840 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_Negative_Unchecked_Privacy_Policy</span>
+                <span class="method-start">97644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Order_History_View</span>
+                <span class="method-start">101447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Download_Page_View</span>
+                <span class="method-start">114138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Transaction_Page_View</span>
+                <span class="method-start">127097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_To_Wishlist</span>
+                <span class="method-start">140672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_To_Cart_From_Productview</span>
+                <span class="method-start">160425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_To_Cart_From_Wishlist</span>
+                <span class="method-start">166123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Update_Cart_From_Shopping_Cart</span>
+                <span class="method-start">178454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Search_by_loggedin</span>
+                <span class="method-start">194880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Search_without_loggedin</span>
+                <span class="method-start">205983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">after_test</span>
+                <span class="method-start">209744 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

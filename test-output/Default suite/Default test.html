@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 15 22:38:26 BDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>209 seconds (209837 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Add_To_Cart_From_Productview()'><b>Add_To_Cart_From_Productview</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>5</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Add_To_Cart_From_Wishlist()'><b>Add_To_Cart_From_Wishlist</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>12</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Add_To_Wishlist()'><b>Add_To_Wishlist</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>19</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Download_Page_View()'><b>Download_Page_View</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>12</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Order_History_View()'><b>Order_History_View</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>12</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_All_Positive()'><b>Register_All_Positive</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>9</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Blank_Email()'><b>Register_Negative_Blank_Email</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Blank_Fname()'><b>Register_Negative_Blank_Fname</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Blank_Lname()'><b>Register_Negative_Blank_Lname</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Blank_Password_Length()'><b>Register_Negative_Blank_Password_Length</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Blank_Teleno_Length()'><b>Register_Negative_Blank_Teleno_Length</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Different_Password()'><b>Register_Negative_Different_Password</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Duplicate_Email()'><b>Register_Negative_Duplicate_Email</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_InvalidFname_Length()'><b>Register_Negative_InvalidFname_Length</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_InvalidLname_Length()'><b>Register_Negative_InvalidLname_Length</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>4</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Invalid_Email()'><b>Register_Negative_Invalid_Email</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Invalid_Teleno_LengthLong()'><b>Register_Negative_Invalid_Teleno_LengthLong</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Invalid_Teleno_LengthShort()'><b>Register_Negative_Invalid_Teleno_LengthShort</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Long_Password_Length()'><b>Register_Negative_Long_Password_Length</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Short_Password_Length()'><b>Register_Negative_Short_Password_Length</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Register_Negative_Unchecked_Privacy_Policy()'><b>Register_Negative_Unchecked_Privacy_Policy</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Search_by_loggedin()'><b>Search_by_loggedin</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>11</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Search_without_loggedin()'><b>Search_without_loggedin</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Transaction_Page_View()'><b>Transaction_Page_View</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>13</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.Update_Cart_From_Shopping_Cart()'><b>Update_Cart_From_Shopping_Cart</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>16</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.login_Negative_Blank()'><b>login_Negative_Blank</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.login_Negative_InvalidEmail()'><b>login_Negative_InvalidEmail</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.login_Negative_InvalidEmail_InvalidPassword()'><b>login_Negative_InvalidEmail_InvalidPassword</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>4</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.login_Negative_InvalidPassword()'><b>login_Negative_InvalidPassword</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>3</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.login_Negative_WrongFormatEmail()'><b>login_Negative_WrongFormatEmail</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>4</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+<tr>
+<td title='SeleniumPractice.demoOpenCart.pageFactory_Tests.login_Positive()'><b>login_Positive</b><br>Test class: SeleniumPractice.demoOpenCart.pageFactory_Tests</td>
+<td></td>
+<td>9</td>
+<td>SeleniumPractice.demoOpenCart.pageFactory_Tests@298a5e20</td></tr>
+</table><p>
+</body>
+</html>
